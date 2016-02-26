@@ -1,0 +1,19 @@
+{
+	"name": "Facebook App hide right sidebar",
+	"version": "1.0.2",
+	"description": "Hide right sidebar when you using facebook web app",
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"icons": {
+		"128": "icon_128.png"
+	},
+	"permissions": [
+		"storage",
+		"http://apps.facebook.com/*",
+		"https://apps.facebook.com/*"
+	],
+	"manifest_version": 2
+}
